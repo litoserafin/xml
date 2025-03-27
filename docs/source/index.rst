@@ -17,6 +17,19 @@ Contents
 --------
 
 .. toctree::
+:maxdeepth: 2
 
-   usage
-   api
+xml_tutorials
+xml_ajax
+xml_dom
+xpath
+xslt
+xquery
+xmldtd
+xsd_schema
+xsd_datatypes
+web_services
+  
+
+
+
