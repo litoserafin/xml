@@ -18,6 +18,7 @@ Contents
 
 .. toctree::
 :maxdeepth: 2
+Usage
 
 xml_tutorials
 xml_ajax
