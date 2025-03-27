@@ -13,13 +13,11 @@ how to :ref:`installation` the project.
 
    This project is under active development.
 
-Contents
+Learning Summary Contents
 --------
 
 .. toctree::
 :maxdeepth: 2
-
-
 xml_tutorials
 xml_ajax
 xml_dom
