@@ -1,7 +1,7 @@
 Welcome to XML LEARNING SUMMARY!
 ===================================
 
-BAYLE,MATULAC,ORTEGA,SERAFIN
+BAYLE,MATULAC,ORTEGA,SERAFIN 
 that creates recipes mixing random ingredients.
 It pulls data from the `Open Food Facts database <https://www.w3schools.com/xml/default.asp>`_
 and offers a *simple* and *intuitive* API.
