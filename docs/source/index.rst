@@ -18,7 +18,6 @@ Learning Summary Contents
 
 .. toctree::
 :maxdeepth: 2
-
 xml_tutorials
 xml_ajax
 xml_dom
