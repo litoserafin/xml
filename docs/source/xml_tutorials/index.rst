@@ -2,6 +2,6 @@ xml_tutorials
 ================
 
 .. toctree::
-   :maxdepth: 2
-   
+
+   :maxdepth:
    xml_intoduction
