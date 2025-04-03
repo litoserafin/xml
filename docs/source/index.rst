@@ -24,7 +24,7 @@ Table of Contents
    :caption:TABLE OF CONTENTS
 
 
-   xml_tutorials
+   xml_tutorials/index
    xml_ajax
    xml_dom
    xpath
