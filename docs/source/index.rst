@@ -20,10 +20,20 @@ XML (Extensible Markup Language) is a markup language designed to store and tran
 
    This project is under active development.
 
-Tablr of Contents
+Table of Contents
 --------
 
 .. toctree::
+   :maxdepth: 2
+  :caption:TABLE OF CONTENTS
 
-   usage
-   api
+   xml_tutorials
+   xml_ajax
+   xml_dom
+   xpath
+   xslt
+   xquery
+   xmldtd
+   xsd_schema
+   xsd_datatypes
+   web_services
