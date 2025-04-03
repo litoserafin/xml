@@ -19,19 +19,20 @@ Learning Summary Contents
 --------
 
 .. toctree::
-:maxdeepth: 2
+   :maxdepth: 2
+  :caption:TABLE OF CONTENTS
 
-xml_tutorials
-xml_ajax
-xml_dom
-xpath
-xslt
-xquery
-xmldtd
-xsd_schema
-xsd_datatypes
-web_services
-  
+   xml_tutorials
+   xml_ajax
+   xml_dom
+   xpath
+   xslt
+   xquery
+   xmldtd
+   xsd_schema
+   xsd_datatypes
+   web_services
+
 
 
 
