@@ -18,7 +18,7 @@ XML (Extensible Markup Language) is a markup language designed to store and tran
 
 
 Table of Contents
---------
+----------------
 
 .. toctree::
    :maxdepth: 2
