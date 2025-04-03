@@ -20,7 +20,7 @@ XML (Extensible Markup Language) is a markup language designed to store and tran
 
    This project is under active development.
 
-Contents
+Tablr of Contents
 --------
 
 .. toctree::
