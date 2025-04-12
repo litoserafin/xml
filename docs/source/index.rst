@@ -10,7 +10,7 @@ ORTEGA NELVY
 
 SERAFIN LITO
 
-INTORDUCTION TO XML
+INTRODUCTION TO XML
 ----------------
 
 XML (Extensible Markup Language) is a markup language designed to store and transport data in a structured and human-readable format. Unlike HTML, which is used for displaying data, XML is used to organize, store, and share data across different applications.
