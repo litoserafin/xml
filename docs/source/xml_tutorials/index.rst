@@ -5,3 +5,6 @@ xml_tutorials
 
    :maxdepth:
    xml_intoduction
+   xml_tree
+   xml_syntax
+   
