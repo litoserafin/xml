@@ -28,7 +28,7 @@ Table of Contents
    :caption:TABLE OF CONTENTS
 
 
-   XML_Tutorial/index
+   xml_tutorials/index
    XML_AJAX/index
    XML_DOM/index
    XPath_Tutorial/index
