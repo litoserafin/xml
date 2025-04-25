@@ -1,26 +1,26 @@
-xml tutorial
-===================
+XML Tutorial
+============
 
-==================
 .. toctree::
-   :maxdepth: 2
-   
-   xml_home
-   xml_introduction
-   xml_tree
-   xml_syntax
-   xml_elements
-   xml_attributes
-   xml_namespaces
-   xml_display
-   xml_http_request
-   xml_parser
-   xml_dom
-   xml_xpath
-   xml_xslt
-   xml_xquery
-   xml_xlink
-   xml_validator
-   xml_dtd
-   xml_schema
-   xml_server
+   :maxdepth: 1
+
+   XML_HOME
+   XML_Introduction
+   XML_How_to_use
+   XML_Tree
+   XML_Syntax
+   XML_Elements
+   XML_Attributes
+   XML_Namespaces
+   XML_Display
+   XML_HttpRequest
+   XML_Parser
+   XML_DOM
+   XML_XPath
+   XML_XSLT
+   XML_XQuery
+   XML_XLink
+   XML_Validator
+   XML_DTD
+   XML_Schema
+   XML_Server
