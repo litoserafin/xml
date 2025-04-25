@@ -15,6 +15,10 @@ INTRODUCTION TO XML
 
 XML (Extensible Markup Language) is a markup language designed to store and transport data in a structured and human-readable format. Unlike HTML, which is used for displaying data, XML is used to organize, store, and share data across different applications.
 
+.. note::
+
+   This project is under active development.
+
 Table of Contents
 ----------------
 
@@ -24,13 +28,14 @@ Table of Contents
    :caption:TABLE OF CONTENTS
 
 
-   xml_tutorials
-   xml_ajax
-   xml_dom
-   xpath
-   xslt
-   xquery
-   xmldtd
-   xsd_schema
-   xsd_datatypes
-   web_services
+   XML_Tutorial/index
+   XML_AJAX/index
+   XML_DOM/index
+   XPath_Tutorial/index
+   XSLT_Tutorial/index
+   XQuery_Tutorial/index
+   XML_DTD/index
+   XML_Schema/index
+   XML_Data_Types/index
+   Web_Services/index
+   XML_EXAMPLES/index
