@@ -8,7 +8,7 @@ Example:
 .. code-block:: xml
 
    <note>
-       <to>Alice</to>
-       <from>Bob</from>
-       <message>Hello, XML!</message>
+       <to>Joe</to>
+       <from>Bee</from>
+       <message>Hi, XML!</message>
    </note>
