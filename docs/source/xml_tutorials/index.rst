@@ -1,4 +1,4 @@
-xml_tutorials
+xml_tutorial
 ================
 
 .. toctree::
