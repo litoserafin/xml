@@ -6,22 +6,22 @@ xml_tutorial
 
    :maxdepth:
    XML HOME
-XML introduction
-XML tree
-XML syntax
-XML elements
-XML attributes
-XML namespaces
-XML Display
-XML HttpRequest
-XML Parser
-XML DOM
-XML XPath
-XML XSLT
-XML XQuery
-XML XLink
-XML Validator
-XML DTD
-XML Schema
-XML Server
+xml introduction
+xml tree
+xml syntax
+xml elements
+xml attributes
+xml namespaces
+xml display
+xml HttpRequest
+xml Parser
+xml DOM
+xml Xpath
+xml XSLT
+xml XQuery
+xml XLink
+xml validator
+xml DTD
+xml schema
+xml server
    
