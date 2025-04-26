@@ -1,10 +1,13 @@
 XML Tutorial
 ============
 
+Welcome to the XML Tutorial! This documentation will guide you through the core concepts and advanced tools related to XML.
+
 .. toctree::
    :maxdepth: 1
+   :caption: XML Topics
 
-   XML_HOME
+   XML_HOME.rst
    XML_Introduction
    XML_Tree
    XML_Syntax
