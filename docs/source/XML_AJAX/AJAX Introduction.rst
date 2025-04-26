@@ -1,5 +1,5 @@
  AJAX Introduction
-=====================
+============
 
 
  What is AJAX?
