@@ -1,27 +1,26 @@
- XML DOM (Document Object Model)
-===============================
+ # XML DOM (Document Object Model)
 
 ---
 
-DOM Introduction
-
+## Introduction
 The **DOM (Document Object Model)** is a platform- and language-independent interface that represents XML or HTML documents as a structured tree of nodes. It allows developers to programmatically access and manipulate a document’s structure, style, and content.
 
 ---
 
- Key Concepts
+## Key Concepts
 
-- **Document Tree**: The XML/HTML document is represented as a tree structure where each node is an object representing a part of the document.
+- **Document Tree**: Represents the entire XML/HTML document as a tree structure.
 - **Nodes**:
   - **Document Node**: The root of the tree.
   - **Element Nodes**: Represent tags like `<book>` or `<title>`.
-  - **Text Nodes**: Represent the actual text inside the elements.
-  - **Attribute Nodes**: Represent element attributes.
-  - **Comment Nodes**: Represent comments in the XML.
+  - **Text Nodes**: Contain the text inside elements.
+  - **Attribute Nodes**: Represent attributes of elements.
+  - **Comment Nodes**: Represent comments in the XML/HTML.
 
 ---
 
-DOM Hierarchy
+## DOM Hierarchy
+
 
 ---
 
