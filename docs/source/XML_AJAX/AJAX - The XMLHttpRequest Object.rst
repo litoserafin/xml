@@ -1,5 +1,5 @@
 The XMLHttpRequest Object
-============
+============ 
 All modern browsers support the XMLHttpRequest object.
 -----------------
 
