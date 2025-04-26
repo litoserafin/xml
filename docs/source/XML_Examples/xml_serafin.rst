@@ -3,6 +3,14 @@ XML EXAMPLE
 SERAFIN LITO B.
 ----------------
 
+
+.. figure:: https://storage.googleapis.com/a1aa/image/725be2bf-54f1-4a14-73b8-8ad106ba34f3.jpg
+   :alt: Viktor champion image with blue laser sword and dark background
+   :width: 500px
+   :align: center
+
+   *Viktor - A futuristic champion wielding high-tech powers*
+
 .. code-block:: xml
 
     <?xml version="1.0" encoding="UTF-8"?>
@@ -41,6 +49,15 @@ SERAFIN LITO B.
             </abilities>
         </champion>
     </league>
+
+What's going on here:
+------------------------
+
+- ``<league>`` is the **root element** that holds all champions.
+- Each ``<champion>`` element includes key details: name, title, role, difficulty, release date, team, and lore.
+- ``<abilities>`` contains a list of ``<ability>`` elements.
+- Each ``<ability>`` has **attributes** like ``power`` and ``action`` that describe its mechanics.
+
 
 What's going on here:
 ------------------------
