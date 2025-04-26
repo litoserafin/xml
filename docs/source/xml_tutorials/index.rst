@@ -7,7 +7,7 @@ Welcome to the XML Tutorial! This documentation will guide you through the core 
    :maxdepth: 1
    :caption: XML Topics
 
-   XML_HOME.rst
+   XML_HOME
    XML_Introduction
    XML_Tree
    XML_Syntax
