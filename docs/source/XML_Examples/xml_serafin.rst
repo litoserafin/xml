@@ -4,13 +4,11 @@ SERAFIN LITO B.
 ----------------
 
 
-XML EXAMPLE
-================
-
 .. figure:: https://storage.googleapis.com/a1aa/image/httyd-toothless.jpg
    :alt: Toothless the Night Fury dragon flying with Hiccup
    :width: 500px
    :align: center
+
 
    *Toothless - The Night Fury, flying with Hiccup in the skies of Berk*
 
