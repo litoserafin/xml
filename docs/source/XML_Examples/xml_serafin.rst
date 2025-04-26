@@ -1,6 +1,6 @@
 XML EXAMPLE
 ================
-SERAFIN LIT B.
+SERAFIN LITO B.
 ----------------
 
 .. code-block:: xml
