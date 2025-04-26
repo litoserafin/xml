@@ -1,4 +1,4 @@
-XPath_Tutorail
+XPath_Tutorial
 ========
 
 .. toctree::
