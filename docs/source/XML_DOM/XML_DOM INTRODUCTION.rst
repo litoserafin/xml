@@ -1,6 +1,6 @@
  DOM Introduction
 
-===================
+================================
 
 The **DOM (Document Object Model)** is a platform- and language-independent interface that represents XML or HTML documents as a structured tree of nodes. It allows developers to programmatically access and manipulate a document’s structure, style, and content.
 
@@ -46,7 +46,8 @@ const title = xmlDoc.getElementsByTagName("title")[0];
 // Modify the text content
 title.textContent = "Updated Title";
 
-✅ Why DOM?
+ Why DOM?
+--------------
 
 Enables dynamic document manipulation
 
