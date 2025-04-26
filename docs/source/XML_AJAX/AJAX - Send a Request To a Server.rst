@@ -1,8 +1,8 @@
 AJAX - Send a Request to a Server
-====================
+=================
   
  How AJAX Sends a Request
-------------------
+-------------
 The XMLHttpRequest object is used to exchange data with a server.
 
 Two key methods are used:
@@ -12,7 +12,7 @@ open(method, url, async): Prepares the request.
 send(): Sends the request to the server.
 
  Method Details
-----------------------------
+--------------
 
 Method	Description
 open(method, url, async)	Sets the request type (GET or POST), target URL, and async mode
@@ -41,7 +41,7 @@ Sending large amounts of data (no size limit).
 Handling sensitive or unknown user input (POST is safer).
 
  Simple GET Request Example
-------------------------
+-----------------
 javascript
 Copy
 Edit
@@ -50,7 +50,7 @@ xhttp.send();
 This may return a cached result.
 
 Avoid Caching in GET Requests
-----------------
+---------------
 Add a random query string to the URL:
 
 javascript
