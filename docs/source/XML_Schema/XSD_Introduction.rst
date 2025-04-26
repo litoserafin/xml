@@ -6,10 +6,10 @@ It is a powerful way to define the structure, content, and data types of XML doc
 
 With XSD, you can:
 
-- 🏗️ Define **element names**, **attributes**, and **data types**
-- ✅ Set **rules and constraints** (like required fields or value ranges)
-- 🔁 Support **reusable types** and **complex structures**
-- 🔍 Validate whether an XML file is well-formed **and** valid
+-  Define **element names**, **attributes**, and **data types**
+-  Set **rules and constraints** (like required fields or value ranges)
+-  Support **reusable types** and **complex structures**
+- Validate whether an XML file is well-formed **and** valid
 
 Here’s why XSD matters:
 
@@ -27,6 +27,5 @@ Example usage:
 
 This line defines an XML element `<price>` that must contain a decimal value.
 
-----
 
-> 📘 **Tip:** Always validate your XML against an XSD when working with structured data formats like APIs, config files, or business forms.
+**Tip:** Always validate your XML against an XSD when working with structured data formats like APIs, config files, or business forms.
