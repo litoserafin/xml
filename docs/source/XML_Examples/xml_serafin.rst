@@ -1,5 +1,7 @@
 XML EXAMPLE
 ================
+SERAFIN LIT B.
+----------------
 
 .. code-block:: xml
 
