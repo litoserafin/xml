@@ -4,51 +4,56 @@ SERAFIN LITO B.
 ----------------
 
 
-.. figure:: https://storage.googleapis.com/a1aa/image/725be2bf-54f1-4a14-73b8-8ad106ba34f3.jpg
-   :alt: Viktor champion image with blue laser sword and dark background
+XML EXAMPLE
+================
+
+.. figure:: https://storage.googleapis.com/a1aa/image/httyd-toothless.jpg
+   :alt: Toothless the Night Fury dragon flying with Hiccup
    :width: 500px
    :align: center
 
-   *Viktor - A futuristic champion wielding high-tech powers*
+   *Toothless - The Night Fury, flying with Hiccup in the skies of Berk*
 
 .. code-block:: xml
 
     <?xml version="1.0" encoding="UTF-8"?>
-    <league>
-        <champion>
-            <name>Ahri</name>
-            <title>The Nine-Tailed Fox</title>
-            <role>Mage</role>
-            <difficulty>Moderate</difficulty>
-            <release_date>2011-12-14</release_date>
-            <team>Vastaya Clan</team>
-            <team_lore>"Don't you trust me?"</team_lore>
-            <lore>Ahri is a fox-like vastaya who can manipulate her prey’s emotions and consume their essence — for amusement or survival.</lore>
+    <dragons>
+        <dragon>
+            <name>Toothless</name>
+            <species>Night Fury</species>
+            <rider>Hiccup</rider>
+            <class>Strike</class>
+            <affiliation>Berk Dragon Riders</affiliation>
+            <release_date>2010-03-26</release_date>
+            <personality>Loyal, Intelligent, Playful</personality>
             <abilities>
-                <ability power="magic" action="orb">Orb of Deception</ability>
-                <ability power="charm" action="taunt">Charm</ability>
-                <ability power="magic" action="burst">Fox-Fire</ability>
-                <ability power="dash" action="move">Spirit Rush</ability>
+                <ability type="plasma" power="high">Plasma Blast</ability>
+                <ability type="stealth" power="medium">Camouflage</ability>
+                <ability type="flight" power="high">High-Speed Flight</ability>
             </abilities>
-        </champion>
+        </dragon>
 
-        <champion>
-            <name>Yasuo</name>
-            <title>The Unforgiven</title>
-            <role>Fighter</role>
-            <difficulty>High</difficulty>
-            <release_date>2013-12-13</release_date>
-            <team>Ionian Blades</team>
-            <team_lore>"Death is like the wind — always by my side."</team_lore>
-            <lore>An Ionian swordsman who lives with the burden of having to kill his own brother to survive, seeking redemption.</lore>
+        <dragon>
+            <name>Stormfly</name>
+            <species>Deadly Nadder</species>
+            <rider>Astrid</rider>
+            <class>Tracker</class>
+            <affiliation>Berk Dragon Riders</affiliation>
+            <release_date>2010-03-26</release_date>
+            <personality>Agile, Loyal, Fierce</personality>
             <abilities>
-                <ability power="wind" action="knockup">Steel Tempest</ability>
-                <ability power="windwall" action="block">Wind Wall</ability>
-                <ability power="dash" action="move">Sweeping Blade</ability>
-                <ability power="wind" action="strike">Last Breath</ability>
+                <ability type="spikes" power="medium">Tail Spike Launch</ability>
+                <ability type="fire" power="medium">Magnesium Flames</ability>
+                <ability type="flight" power="high">Aerial Acrobatics</ability>
             </abilities>
-        </champion>
-    </league>
+        </dragon>
+    </dragons>
+
+What's going on here:
+------------------------
+
+- ``<dragons>`` is the **root element**, representing all trained dragons.
+- Each ``<dragon
 
 What's going on here:
 ------------------------
