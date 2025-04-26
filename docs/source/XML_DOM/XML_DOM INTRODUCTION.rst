@@ -1,13 +1,15 @@
- DOM Introduction
+ XML DOM (Document Object Model)
+===============================
 
-================================
+---
+
+DOM Introduction
 
 The **DOM (Document Object Model)** is a platform- and language-independent interface that represents XML or HTML documents as a structured tree of nodes. It allows developers to programmatically access and manipulate a document’s structure, style, and content.
 
 ---
 
  Key Concepts
-------------------
 
 - **Document Tree**: The XML/HTML document is represented as a tree structure where each node is an object representing a part of the document.
 - **Nodes**:
@@ -19,7 +21,7 @@ The **DOM (Document Object Model)** is a platform- and language-independent inte
 
 ---
 
- DOM Hierarchy
+DOM Hierarchy
 
 ---
 
