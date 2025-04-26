@@ -1,8 +1,8 @@
 AJAX - Send a Request to a Server
-=================
+===============
   
  How AJAX Sends a Request
--------------
+------------
 The XMLHttpRequest object is used to exchange data with a server.
 
 Two key methods are used:
