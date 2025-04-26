@@ -1,8 +1,8 @@
-XSLT Tutorail
+XSLT Tutorial
 ============
 
 .. toctree::
    :maxdepth: 1
 
-   XSLT_Tutorail
+   XSLT_Tutorial
 
