@@ -1,7 +1,7 @@
-XML DOM
+XML DOM INTRODUCTION
 ============
 
 .. toctree::
    :maxdepth: 1
 
-   DOM_Introduction
+   DOM_INTRODUCTION
