@@ -3,46 +3,43 @@ XML EXAMPLE
 SERAFIN LITO B.
 ----------------
 
-
-.. figure:: https://storage.googleapis.com/a1aa/image/httyd-toothless.jpg
-   :alt: Toothless the Night Fury dragon flying with Hiccup
-   :width: 500px
+.. figure:: https://static.wikia.nocookie.net/howtotrainyourdragon/images/5/5e/Light_Fury_RotR.png
+   :alt: Light Fury dragon flying gracefully in the sky
+   :width: 450px
    :align: center
 
-
-   *Toothless - The Night Fury, flying with Hiccup in the skies of Berk*
+   Light Fury - A rare and beautiful dragon with dazzling speed and plasma blasts.
 
 .. code-block:: xml
 
     <?xml version="1.0" encoding="UTF-8"?>
     <dragons>
         <dragon>
-            <name>Toothless</name>
-            <species>Night Fury</species>
-            <rider>Hiccup</rider>
+            <name>Light Fury</name>
+            <species>Light Fury</species>
+            <rider>None</rider>
             <class>Strike</class>
-            <affiliation>Berk Dragon Riders</affiliation>
-            <release_date>2010-03-26</release_date>
-            <personality>Loyal, Intelligent, Playful</personality>
+            <affiliation>Hidden World</affiliation>
+            <release_date>2019-02-22</release_date>
+            <personality>Curious, Brave, Playful</personality>
             <abilities>
                 <ability type="plasma" power="high">Plasma Blast</ability>
-                <ability type="stealth" power="medium">Camouflage</ability>
-                <ability type="flight" power="high">High-Speed Flight</ability>
+                <ability type="stealth" power="high">Invisibility Cloak</ability>
+                <ability type="flight" power="very_high">Supersonic Flight</ability>
             </abilities>
         </dragon>
 
         <dragon>
-            <name>Stormfly</name>
-            <species>Deadly Nadder</species>
-            <rider>Astrid</rider>
-            <class>Tracker</class>
+            <name>Hookfang</name>
+            <species>Monstrous Nightmare</species>
+            <rider>Snotlout</rider>
+            <class>Stoker</class>
             <affiliation>Berk Dragon Riders</affiliation>
             <release_date>2010-03-26</release_date>
-            <personality>Agile, Loyal, Fierce</personality>
+            <personality>Fiery, Aggressive, Loyal</personality>
             <abilities>
-                <ability type="spikes" power="medium">Tail Spike Launch</ability>
-                <ability type="fire" power="medium">Magnesium Flames</ability>
-                <ability type="flight" power="high">Aerial Acrobatics</ability>
+                <ability type="fire" power="very_high">Self-Ignite</ability>
+                <ability type="flight" power="medium">Strong Gliding</ability>
             </abilities>
         </dragon>
     </dragons>
@@ -50,23 +47,10 @@ SERAFIN LITO B.
 What's going on here:
 ------------------------
 
-- ``<dragons>`` is the **root element**, representing all trained dragons.
-- Each ``<dragon
-
-What's going on here:
-------------------------
-
-- ``<league>`` is the **root element** that holds all champions.
-- Each ``<champion>`` element includes key details: name, title, role, difficulty, release date, team, and lore.
-- ``<abilities>`` contains a list of ``<ability>`` elements.
-- Each ``<ability>`` has **attributes** like ``power`` and ``action`` that describe its mechanics.
+- ``<dragons>`` is the **root element** that groups all dragon entries.
+- Each ``<dragon>`` contains info like ``<name>``, ``<species>``, ``<rider>``, ``<class>``, ``<affiliation>``, and ``<release_date>``.
+- ``<abilities>`` holds special moves or natural powers, with attributes like ``type`` and ``power``.
+- This XML structure would be perfect for a "Dragon Database" or a "Training Manual App".
 
 
-What's going on here:
-------------------------
-
-- ``<league>`` is the **root element** containing all champions.
-- Each ``<champion>`` has **child elements** such as ``<name>``, ``<title>``, ``<role>``, ``<difficulty>``, ``<release_date>``, ``<team>``, ``<team_lore>``, ``<lore>``, and ``<abilities>``.
-- ``<abilities>`` contains multiple ``<ability>`` elements, each with **attributes** like ``power`` and ``action`` to describe their special skills.
-- **Attributes** are used inside ``<ability>`` (e.g., ``power="magic"``, ``action="orb"``) to provide extra information about the ability.
 
