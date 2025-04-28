@@ -10,6 +10,7 @@ What is XML DOM?
 XML DOM Tree Structure:
 ------------------
 Example XML:
+.. code-block:: xml
 
 <library>
   <book category="fiction">
@@ -38,6 +39,8 @@ Common DOM Methods:
 
 Sample Access (JavaScript):
 -----------------
+.. code-block:: xml
+
 <script>
 const parser = new DOMParser();
 const xmlString = `
