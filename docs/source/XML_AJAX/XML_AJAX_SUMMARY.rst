@@ -1,4 +1,4 @@
-XML AJAX SUMMARY.rst
+XML AJAX SUMMARY
 =================
 
 AJAX Introduction
