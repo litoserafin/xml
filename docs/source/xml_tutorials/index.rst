@@ -9,6 +9,7 @@ Welcome to the XML Tutorial! This documentation will guide you through the core 
 
    XML_HOME
    XML_Introduction
+   XML_SUMMARY
    XML_Tree
    XML_Syntax
    XML_Elements
