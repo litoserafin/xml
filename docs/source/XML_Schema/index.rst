@@ -4,4 +4,5 @@ XML Schema
 .. toctree::
    :maxdepth: 1
 
-   XML_Introduction
+   XSD_Introduction
+   XSD_SUMMARY
