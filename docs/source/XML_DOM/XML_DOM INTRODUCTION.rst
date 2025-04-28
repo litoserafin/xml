@@ -8,23 +8,27 @@ What is XML DOM?
 - The XML DOM allows programs to dynamically read, modify, delete, or add data.
 
 XML DOM Tree Structure:
-------------------
+-------------------------
 Example XML:
-<library>
-  <book category="fiction">
-    <title>Harry Potter</title>
-    <author>J.K. Rowling</author>
-  </book>
-</library>
 
+.. code-block:: xml
 
-Tree:
-Document
-└── library
-    └── book (category="fiction")
-        ├── title ("Harry Potter")
-        └── author ("J.K. Rowling")
+   <library>
+     <book category="fiction">
+       <title>Harry Potter</title>
+       <author>J.K. Rowling</author>
+     </book>
+   </library>
 
+Tree structure:
+
+.. code-block:: text
+
+   Document
+   └── library
+       └── book (category="fiction")
+           ├── title ("Harry Potter")
+           └── author ("J.K. Rowling")
 
 Common DOM Methods:
 ---------------------
@@ -38,25 +42,25 @@ Common DOM Methods:
 - createTextNode(): creates a text node
 
 Sample Access (JavaScript):
------------------
-.. code-block:: xml
+----------------------------
+.. code-block:: html
 
-<script>
-const parser = new DOMParser();
-const xmlString = `
-<library>
-  <book category="fiction">
-    <title>Harry Potter</title>
-    <author>J.K. Rowling</author>
-  </book>
-</library>`;
-const xmlDoc = parser.parseFromString(xmlString, "application/xml");
-const title = xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
-console.log(title);  // Output: Harry Potter
-</script>
+   <script>
+   const parser = new DOMParser();
+   const xmlString = `
+   <library>
+     <book category="fiction">
+       <title>Harry Potter</title>
+       <author>J.K. Rowling</author>
+     </book>
+   </library>`;
+   const xmlDoc = parser.parseFromString(xmlString, "application/xml");
+   const title = xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+   console.log(title);  // Output: Harry Potter
+   </script>
 
 Why Learn XML DOM?
------------------
+-------------------
 - Easy XML file manipulation
 - Important for web services, SOAP APIs, configuration files
 - Supported in Java, Python, JavaScript, C#, etc.
