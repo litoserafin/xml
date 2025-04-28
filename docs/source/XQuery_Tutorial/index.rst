@@ -5,4 +5,4 @@ XML Tutorial
    :maxdepth: 1
 
    XQuery_Tutorial
-
+   XQUERY_SUMMARY
