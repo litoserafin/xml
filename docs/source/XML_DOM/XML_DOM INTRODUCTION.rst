@@ -10,8 +10,6 @@ What is XML DOM?
 XML DOM Tree Structure:
 ------------------
 Example XML:
-.. code-block:: xml
-
 <library>
   <book category="fiction">
     <title>Harry Potter</title>
@@ -19,12 +17,14 @@ Example XML:
   </book>
 </library>
 
+
 Tree:
 Document
 └── library
     └── book (category="fiction")
         ├── title ("Harry Potter")
         └── author ("J.K. Rowling")
+
 
 Common DOM Methods:
 ---------------------
