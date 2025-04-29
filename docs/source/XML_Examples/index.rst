@@ -5,5 +5,4 @@ XML EXAMPLE
    :maxdepth: 1
 
    xml_serafin
-   xml_bayle
-   EXAMPLE 2
+   
