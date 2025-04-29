@@ -1,6 +1,6 @@
 XML EXAMPLE
 ================
-BAYLE MARY JOY
+SERAFIN LITO B.
 ----------------
 
 What is this XML example about?
@@ -30,9 +30,9 @@ Designed to be:
 > 🎮 Great for game developers, XML learners, or database designers  
 > who want a fun yet structured data format!
 
-.. figure:: https://storage.googleapis.com/a1aa/image/pikachu.jpg
-   :alt: Pikachu, standing and sparking with electricity
-   :width: 500px
+.. figure:: https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png
+   :alt: Pikachu standing, smiling, and sparking with electricity
+   :width: 300px
    :align: center
 
    *Pikachu - The iconic Electric-type Pokémon*
