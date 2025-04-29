@@ -2,8 +2,8 @@ XML EXAMPLE
 ================
 
 DEVELOPERS:
--SERAFIN LITO B.
 ----------------
+- SERAFIN LITO B.
 
 What is this XML example about?
 -------------------------------
