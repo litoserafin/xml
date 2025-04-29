@@ -1,3 +1,7 @@
+XML EXAMPLE
+================
+
+
 What is this XML example about?
 -------------------------------
 
@@ -25,7 +29,7 @@ Designed to be:
 > 🎮 Great for game developers, XML learners, or database designers  
 > who want a fun yet structured data format!
 
-.. figure:: https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png
+.. image:: https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png
    :alt: Pikachu standing, smiling, and sparking with electricity
    :width: 300px
    :align: center
@@ -78,3 +82,4 @@ What's going on here:
 - Each ``<pokemon>`` entry stores name, species, types, difficulty, and backstory.
 - ``<moves>`` is a nested container for the Pokémon's key attacks.
 - ``<move>`` tags contain **attributes** like ``power`` and ``action`` to describe functionality.
+
