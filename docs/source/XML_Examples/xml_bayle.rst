@@ -29,7 +29,7 @@ Designed to be:
 > 🎮 Perfect for game developers, game designers, or anyone building fan content  
 > for the Super Mario series!
 
-.. image:: https://www.mariowiki.com/images/0/0c/MarioArtwork.png
+.. image:: https://mariowiki.com/images/0/0c/MarioArtwork.png
    :alt: Mario jumping with his iconic red hat and mustache
    :width: 300px
    :align: center
@@ -91,4 +91,6 @@ What's going on here:
 - Each ``<character>`` stores information such as name, role, abilities, and lore.
 - ``<abilities>`` contains a list of actions like jumping, fire breathing, and crushing.
 - Each ``<ability>`` has **attributes** like ``power`` and ``action`` describing the action's effects.
+
+
 
