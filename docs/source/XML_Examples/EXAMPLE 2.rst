@@ -1,6 +1,7 @@
 XML EXAMPLE
 ================
-
+SERAFIN LITO B.
+----------------
 
 What is this XML example about?
 -------------------------------
