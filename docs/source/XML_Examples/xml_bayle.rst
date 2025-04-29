@@ -1,86 +1,94 @@
 XML EXAMPLE
 ================
-SERAFIN LITO B.
+BAYLE MARY JOY
 ----------------
 
 What is this XML example about?
 -------------------------------
 
-This XML example showcases a structured way to represent **Pokémon characters**  
+This XML example demonstrates a structured way to represent **Super Mario** characters  
 in a **machine-readable** XML format.
 
-Each ``<pokemon>`` element includes rich metadata about a specific Pokémon, such as:
+Each ``<character>`` element holds key details about a specific character in the Super Mario universe, such as:
 
-- ✨ **Name and Species** — The Pokémon's name and species classification.
-- 🔥 **Type** — One or two elemental types (e.g., Fire, Water, Electric).
-- 🧠 **Category** — Describes the Pokémon's general behavior or role.
-- 🎯 **Difficulty Level** — How hard it is to train or evolve.
-- 📅 **First Appearance** — The game or generation in which the Pokémon debuted.
-- 🗣️ **Voice Line** — A catchphrase or Pokédex entry.
-- 📖 **Lore** — A short backstory or behavior description.
-- ⚔️ **Moves** — Key abilities or attacks used in battle.
+- ✨ **Name and Alias** — The character's name and any known aliases.
+- 🌟 **Role** — The character's primary role or function (e.g., Hero, Villain).
+- 🎮 **Abilities** — Powers or skills the character uses in their adventures.
+- 🏆 **First Appearance** — The game where the character first appeared.
+- 🗣️ **Catchphrase** — A memorable line or catchphrase that the character is known for.
+- 📖 **Lore** — A short backstory or origin story for the character.
+- ⚔️ **Actions** — Key actions or abilities used in the game.
 
 Designed to be:
 
-- **Developer-friendly** — Ideal for use in apps, wikis, or databases.
-- **Organized** — Easily updatable and searchable.
-- **Expandable** — Add new Pokémon, types, or moves seamlessly.
-- **Reusable** — Perfect for game guides, training apps, or encyclopedias.
+- **Developer-friendly** — Ideal for apps, game databases, or fan sites.
+- **Organized** — Easy to update, manage, and retrieve character details.
+- **Expandable** — Additional characters, powers, and moves can be added effortlessly.
+- **Reusable** — Perfect for creating guides, fan projects, or game documentation.
 
-> 🎮 Great for game developers, XML learners, or database designers  
-> who want a fun yet structured data format!
+> 🎮 Perfect for game developers, game designers, or anyone building fan content  
+> for the Super Mario series!
 
-.. image:: https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png
-   :alt: Pikachu standing, smiling, and sparking with electricity
+.. image:: https://www.mariowiki.com/images/0/0c/MarioArtwork.png
+   :alt: Mario jumping with his iconic red hat and mustache
    :width: 300px
    :align: center
 
-   *Pikachu - The iconic Electric-type Pokémon*
+   *Mario - The famous plumber and hero of the Mushroom Kingdom*
 
 .. code-block:: xml
 
     <?xml version="1.0" encoding="UTF-8"?>
-    <pokedex>
-        <pokemon>
-            <name>Pikachu</name>
-            <species>Mouse Pokémon</species>
-            <type>Electric</type>
-            <category>Starter</category>
-            <difficulty>Easy</difficulty>
-            <first_appearance>Pokémon Red/Blue (1996)</first_appearance>
-            <voice_line>"Pika Pika!"</voice_line>
-            <lore>Pikachu stores electricity in its cheeks and releases it in thunderous bursts to defend itself.</lore>
-            <moves>
-                <move power="electric" action="shock">Thunder Shock</move>
-                <move power="electric" action="zap">Electro Ball</move>
-                <move power="electric" action="storm">Thunderbolt</move>
-                <move power="physical" action="tackle">Quick Attack</move>
-            </moves>
-        </pokemon>
+    <super_mario>
+        <character>
+            <name>Mario</name>
+            <alias>Super Mario</alias>
+            <role>Hero</role>
+            <abilities>
+                <ability power="jump" action="higher">Super Jump</ability>
+                <ability power="fire" action="attack">Fireball</ability>
+                <ability power="speed" action="move">Super Speed</ability>
+                <ability power="strength" action="smash">Ground Pound</ability>
+            </abilities>
+            <first_appearance>Donkey Kong (1981)</first_appearance>
+            <catchphrase>"It's-a me, Mario!"</catchphrase>
+            <lore>Mario is a plumber who ventures through the Mushroom Kingdom to rescue Princess Peach from Bowser's clutches.</lore>
+        </character>
 
-        <pokemon>
-            <name>Charizard</name>
-            <species>Flame Pokémon</species>
-            <type>Fire/Flying</type>
-            <category>Final Evolution</category>
-            <difficulty>Moderate</difficulty>
-            <first_appearance>Pokémon Red/Blue (1996)</first_appearance>
-            <voice_line>"Charizard roars and breathes intense flames!"</voice_line>
-            <lore>Charizard soars through the sky in search of powerful opponents, its breath hot enough to melt boulders.</lore>
-            <moves>
-                <move power="fire" action="blast">Flamethrower</move>
-                <move power="dragon" action="rage">Dragon Claw</move>
-                <move power="flying" action="charge">Fly</move>
-                <move power="fire" action="eruption">Heat Wave</move>
-            </moves>
-        </pokemon>
-    </pokedex>
+        <character>
+            <name>Princess Peach</name>
+            <alias>Princess Toadstool</alias>
+            <role>Heroine</role>
+            <abilities>
+                <ability power="float" action="hover">Floating Jump</ability>
+                <ability power="defend" action="shield">Royal Shield</ability>
+                <ability power="healing" action="restore">Healing Heart</ability>
+            </abilities>
+            <first_appearance>Super Mario Bros. (1985)</first_appearance>
+            <catchphrase>"Thank you Mario, but our princess is in another castle!"</catchphrase>
+            <lore>Princess Peach is the ruler of the Mushroom Kingdom, often kidnapped by Bowser, but always determined to fight for her kingdom.</lore>
+        </character>
+
+        <character>
+            <name>Bowser</name>
+            <alias>King of the Koopas</alias>
+            <role>Villain</role>
+            <abilities>
+                <ability power="fire" action="breath">Fire Breath</ability>
+                <ability power="strength" action="crush">Claw Crush</ability>
+                <ability power="summon" action="minions">Summon Koopa Troopas</ability>
+            </abilities>
+            <first_appearance>Super Mario Bros. (1985)</first_appearance>
+            <catchphrase>"Gwahahaha!"</catchphrase>
+            <lore>Bowser is the evil king of the Koopa race, constantly trying to take over the Mushroom Kingdom and defeat Mario.</lore>
+        </character>
+    </super_mario>
 
 What's going on here:
 ------------------------
 
-- ``<pokedex>`` is the **root element** that wraps all Pokémon entries.
-- Each ``<pokemon>`` entry stores name, species, types, difficulty, and backstory.
-- ``<moves>`` is a nested container for the Pokémon's key attacks.
-- ``<move>`` tags contain **attributes** like ``power`` and ``action`` to describe functionality.
+- ``<super_mario>`` is the **root element** that wraps all character data.
+- Each ``<character>`` stores information such as name, role, abilities, and lore.
+- ``<abilities>`` contains a list of actions like jumping, fire breathing, and crushing.
+- Each ``<ability>`` has **attributes** like ``power`` and ``action`` describing the action's effects.
 
