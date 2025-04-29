@@ -6,3 +6,4 @@ XML EXAMPLE
 
    xml_serafin
    xml_bayle
+   EXAMPLE 2
